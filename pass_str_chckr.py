@@ -1,5 +1,4 @@
 import re
-# from tkinter import *
 
 def pass_chckr(password):
     score = 0
@@ -39,16 +38,6 @@ def pass_chckr(password):
     else:
         return "Weak ❌", suggestions
     
-# # gui
-
-# psc_root = Tk()
-# psc_root.geometry("450x350")
-# psc_root.resizable(False, False)
-
-# textArea = Label(text="Welcome To 🔐 PASSWORD STRENGTH CHECKER..🔐", bg="cyan", fg="red")
-# textArea.pack()
-
-    
 
 print("🔐 PASSWORD STRENGTH CHECKER..🔐")
 
@@ -69,7 +58,3 @@ while True:
         for s in suggestions:
             print("- " + s)
         print()
-
-
-
-# psc_root.mainloop()
